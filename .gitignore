@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.ipynb_checkpoints
+
+.env
+.venv
+env/
+venv/
+ENV/
+
+.DS_Store
+
+# Ignore large datasets due to GitHub 100MB limit
+data/raw/student_health_raw.csv
+data/processed/student_health_clean.csv
+data/processed/student_health_features.csv
+*.zip
