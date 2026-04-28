@@ -1,18 +1,11 @@
-# Tableau Dashboard Links
-## Primary Dashboard
-**URL:** [To be added after publishing to Tableau Public]  
-**Published by:** [Team Member Name]  
-**Published date:** [Date]  
+# Tableau Dashboards
 
-## Dashboard Tabs
-- Tab 1: Overview Dashboard
-- Tab 2: Lifestyle Analysis  
-- Tab 3: Academic & Financial Stress
-- Tab 4: Risk Segmentation
+## Dashboard 1: Support & Intervention Insights
+**Link:** [View Dashboard 1](https://public.tableau.com/app/profile/hirdyansh.kumar/viz/Turing_BroCodes_Student-Mental-Health-and-Burnout/Dashboard2-SupportInterventionInsights?publish=yes)
 
-## Screenshots
-Screenshots are stored in tableau/screenshots/ folder:
-- screenshot_01_overview.png
-- screenshot_02_lifestyle.png
-- screenshot_03_academic_financial.png
-- screenshot_04_risk_segmentation.png
+![Dashboard 1](screenshots/dashboard-1.png)
+
+## Dashboard 2: Burnout Overview
+**Link:** [View Dashboard 2](https://public.tableau.com/app/profile/hirdyansh.kumar/viz/Turing_BroCodes_Student-Mental-Health-and-Burnout1/Dashboard1-BurnoutOverview?publish=yes)
+
+![Dashboard 2](screenshots/dashboard-2.png)
