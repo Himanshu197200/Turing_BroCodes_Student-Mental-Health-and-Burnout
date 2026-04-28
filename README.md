@@ -11,18 +11,18 @@
 | **Sector** | EdTech / Higher Education |
 | **Team ID** | Turing_BroCodes |
 | **Section** | DVA |
-| **Faculty Mentor** | To be filled by team |
+| **Faculty Mentor** | Deepali Ma'am, Vrushali Ma'am, Kajal Ma'am |
 | **Institute** | Newton School of Technology |
-| **Submission Date** | To be filled by team |
+| **Submission Date** | 28 April 2026 |
 
 ## Team Members
 | Role | Name | GitHub Username |
 |---|---|---|
-| Project Lead & Full-Stack Analyst | Himanshu Mishra | Himanshu197200 |
-| BI & Visualisation Engineer | Ayush Anand | (GitHub Username) |
-| Data Analyst | Hirdyansh Kumar | (GitHub Username) |
-| Statistical Modeler | Sumit Kumar Nayak | (GitHub Username) |
-| Research & Documentation Lead | Oashe Mehta | (GitHub Username) |
+| Project Lead & Full-Stack Analyst | Himanshu Mishra | [Himanshu197200](https://github.com/Himanshu197200) |
+| BI & Visualisation Engineer | Ayush Anand | [AyushAnand-28](https://github.com/AyushAnand-28) |
+| Data Analyst | Hirdyansh Kumar | [HirdyanshKumar](https://github.com/HirdyanshKumar) |
+| Statistical Modeler | Sumit Kumar Nayak | [Sumit210106](https://github.com/Sumit210106) |
+| Research & Documentation Lead | Oashe Mehta | [Oashe02](https://github.com/Oashe02) |
 
 ## Business Problem
 **Sector Context**: The Higher Education sector is currently experiencing a widely documented mental health crisis. With rising tuition costs, highly competitive job markets, and the isolating effects of modern digital lifestyles, students are exhibiting record-high levels of clinical anxiety and depression. Universities are heavily incentivized—both ethically and financially—to ensure student wellbeing, as student dropout directly correlates with massive losses in tuition revenue and institutional prestige.
@@ -91,13 +91,39 @@
 
 ## 🛠️ Project Structure
 ```text
-├── data/               # Raw and processed datasets
-├── docs/               # Detailed Data Dictionary (25 columns)
-├── notebooks/          # Step-by-step pipeline (Cleaning → EDA → Features)
-├── reports/            # Validation charts and final outputs
-├── requirements.txt    # Python dependencies
-├── scripts/            # Helper functions for processing
-└── tableau/            # Dashboard links and screenshots
+DVA_Turing_BroCodes_Student-Mental-Health-and-Burnout/
+|
+|-- README.md
+|-- requirements.txt
+|
+|-- data/
+|   |-- raw/                         # Markdown link to download raw dataset
+|   |   `-- raw_data_link.md
+|   `-- processed/                   # Cleaned output from ETL pipeline
+|       |-- *.csv                    # Cleaned data and KPI features
+|       `-- *.png                    # EDA charts and Statistical analysis
+|
+|-- notebooks/
+|   |-- 01_extraction.ipynb
+|   |-- 02_cleaning.ipynb
+|   |-- 03_feature_engineering.ipynb
+|   |-- 04_eda.ipynb
+|   |-- 05_statistical_analysis.ipynb
+|   `-- 06_final_load_prep.ipynb
+|
+|-- scripts/
+|   `-- etl_pipeline.py
+|
+|-- tableau/
+|   |-- screenshots/
+|   |-- dashboard_links.md
+|   `-- Turing_BroCodes_Student-Mental-Health-and-Burnout.twbx
+|
+|-- reports/
+|   `-- Turing_BroCodes_Student-Mental-Health-and-Burnout.pdf
+|
+`-- docs/
+    `-- data_dictionary.md
 ```
 
 ## ⚙️ Data Pipeline & Methodology
@@ -128,7 +154,7 @@ The analysis follows a rigorous 6-stage pipeline:
 ## Contribution Matrix
 | Team Member | Role | Dataset and Sourcing | ETL and Cleaning | EDA and Analysis | Statistical Analysis | Tableau Dashboard | Report Writing | PPT and Viva |
 |---|---|---|---|---|---|---|---|---|
-| Himanshu Mishra | Project Lead & Full-Stack Analyst | Owner | Owner | Owner | Owner | Owner | Owner | Owner |
+| Himanshu Mishra | Project Lead & Full-Stack Analyst | Owner | Owner | Support | Support | Owner | Owner | Support |
 | Ayush Anand | BI & Visualisation Engineer | Support | Support | Support | Support | Owner | Support | Support |
 | Hirdyansh Kumar | Data Analyst | Support | Support | Owner | Support | Support | Support | Support |
 | Sumit Kumar Nayak | Statistical Modeler | Support | Support | Support | Owner | Support | Support | Support |
